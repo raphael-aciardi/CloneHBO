@@ -9,8 +9,7 @@ import React from 'react';
 import { StatusBar, StyleSheet, useColorScheme } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
-
-import StackNavigator from './navigation/StackNavigator';
+import { Routes } from './navigation/Routes';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
@@ -18,9 +17,8 @@ function App() {
   return (
     <SafeAreaProvider>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-
       <NavigationContainer>
-        <StackNavigator />
+        <Routes />
       </NavigationContainer>
     </SafeAreaProvider>
   );
