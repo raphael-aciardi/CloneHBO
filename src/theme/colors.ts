@@ -14,4 +14,16 @@ export const colors = {
   card: '#1A1A1A',
 
   border: '#2A2A2A',
+
+  buttonColor: {
+    primary: '#808080',
+    secondary: '#FFFFFF',
+    text: {
+      white: '#FFFFFF',
+      black: '#000000',
+      gray: '#808080',
+    },
+  },
 };
+
+export type ButtonVariant = 'primary' | 'secondary';

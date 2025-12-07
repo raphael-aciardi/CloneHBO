@@ -3,19 +3,15 @@ import { colors } from './colors';
 import { typography } from './typography';
 import { spacing } from './spacing';
 
-export const ScreenContainer = styled.View`
+export const ScreenContainer = styled.SafeAreaView`
   flex: 1;
   background-color: ${colors.background};
-  padding: ${spacing.md}px;
 `;
 
 export const Title = styled.Text`
   font-size: ${typography.sizes.xl}px;
-  font-weight: bold;
+  font-weight: ${typography.weights.bold};
   color: ${colors.text};
-`;
-
-export const Subtitle = styled.Text`
-  font-size: ${typography.sizes.md}px;
-  color: ${colors.textSecondary};
+  margin-bottom: ${spacing.md}px;
+  text-align: center;
 `;

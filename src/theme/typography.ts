@@ -11,4 +11,11 @@ export const typography = {
     xl: 28,
     xxl: 32,
   },
+  weights: {
+    light: 300,
+    regular: 400,
+    medium: 500,
+    bold: 700,
+    black: 900,
+  },
 };
