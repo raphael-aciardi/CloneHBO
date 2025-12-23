@@ -16,7 +16,7 @@ export const colors = {
   border: '#2A2A2A',
 
   textInput: {
-    border: '#5B5B60',
+    border: '#ffffffda',
   },
 
   iconsColor: {
