@@ -1,11 +1,8 @@
-import { Text, TouchableOpacity } from 'react-native';
 import DefaultButton from '../../../components/DefaultButton';
 import MoviesCatalogImage from '../../../components/MoviesCatalogImage';
-import { ScreenContainer, Title } from '../../../theme/globalStyles';
+import { Description, ScreenContainer, Title } from '../../../theme/globalStyles';
 import {
   ButtonsContainer,
-  Container,
-  Description,
   InformationsContainer,
   LinkButton,
   LinkButtonText,

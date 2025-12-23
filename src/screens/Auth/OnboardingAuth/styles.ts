@@ -15,16 +15,6 @@ export const LogoContainer = styled.View`
   padding-bottom: ${spacing.md}px;
 `;
 
-export const Description = styled.Text`
-  font-weight: ${typography.weights.regular};
-  padding-inline: ${spacing.lg}px;
-  margin-inline: ${spacing.md}px;
-  color: ${colors.text};
-  margin-bottom: ${spacing.md}px;
-  font-size: ${typography.sizes.md}px;
-  text-align: center;
-`;
-
 export const Logo = styled.Image`
   width: 100px;
   height: 50px;

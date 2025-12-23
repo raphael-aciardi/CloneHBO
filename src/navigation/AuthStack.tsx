@@ -1,5 +1,6 @@
 import { createStackNavigator } from '@react-navigation/stack';
 import OnboardingAuth from '../screens/Auth/OnboardingAuth';
+import EnterEmail from '../screens/Auth/EnterEmail';
 
 const AuthStack = createStackNavigator();
 
@@ -9,7 +10,7 @@ export default function AuthStackRoutes() {
       <AuthStack.Screen
         options={{ headerShown: false }}
         name="OnboardingAuth"
-        component={OnboardingAuth}
+        component={EnterEmail}
       />
     </AuthStack.Navigator>
   );

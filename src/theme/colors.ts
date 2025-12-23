@@ -15,6 +15,14 @@ export const colors = {
 
   border: '#2A2A2A',
 
+  textInput: {
+    border: '#5B5B60',
+  },
+
+  iconsColor: {
+    white: '#FFFFFF',
+  },
+
   buttonColor: {
     primary: '#808080',
     secondary: '#FFFFFF',
