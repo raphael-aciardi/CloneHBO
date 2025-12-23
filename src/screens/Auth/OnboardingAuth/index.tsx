@@ -1,6 +1,11 @@
+import { useNavigation } from '@react-navigation/native';
 import DefaultButton from '../../../components/DefaultButton';
 import MoviesCatalogImage from '../../../components/MoviesCatalogImage';
-import { Description, ScreenContainer, Title } from '../../../theme/globalStyles';
+import {
+  Description,
+  ScreenContainer,
+  Title,
+} from '../../../theme/globalStyles';
 import {
   ButtonsContainer,
   InformationsContainer,
@@ -11,6 +16,12 @@ import {
 } from './styles';
 
 export default function OnboardingAuth() {
+  const navigation = useNavigation();
+
+  function hadleSignIn() {
+    navigation.navigate('EnterEmail' as never);
+  }
+
   return (
     <ScreenContainer>
       <MoviesCatalogImage />
@@ -25,7 +36,7 @@ export default function OnboardingAuth() {
         </Description>
         <ButtonsContainer>
           <DefaultButton buttonStyle="secondary" title="Assinar agora" />
-          <DefaultButton title="Entrar" />
+          <DefaultButton title="Entrar" onClick={hadleSignIn} />
           <LinkButton>
             <LinkButtonText>Privacidade e informações legais</LinkButtonText>
           </LinkButton>

@@ -10,6 +10,11 @@ export default function AuthStackRoutes() {
       <AuthStack.Screen
         options={{ headerShown: false }}
         name="OnboardingAuth"
+        component={OnboardingAuth}
+      />
+      <AuthStack.Screen
+        options={{ headerShown: false }}
+        name="EnterEmail"
         component={EnterEmail}
       />
     </AuthStack.Navigator>
