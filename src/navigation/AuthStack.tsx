@@ -1,6 +1,6 @@
 import { createStackNavigator } from '@react-navigation/stack';
-import OnboardingAuth from '../screens/Auth/OnboardingAuth';
-import EnterEmail from '../screens/Auth/EnterEmail';
+import OnboardingAuth from '@screens/Auth/OnboardingAuth';
+import EnterEmail from '@screens/Auth/EnterEmail';
 
 const AuthStack = createStackNavigator();
 

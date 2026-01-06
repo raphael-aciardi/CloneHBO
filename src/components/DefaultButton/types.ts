@@ -1,4 +1,4 @@
-import { ButtonVariant } from '../../theme/colors';
+import { ButtonVariant } from '@theme/colors';
 
 export type ButtonProps = {
   buttonStyle?: ButtonVariant;

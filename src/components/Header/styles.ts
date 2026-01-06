@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import { colors } from '../../theme/colors';
+import { colors } from '@theme/colors';
 import { ChevronLeft } from 'lucide-react-native';
 
 export const Container = styled.View`

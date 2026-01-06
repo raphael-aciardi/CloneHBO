@@ -1,8 +1,8 @@
 import styled from 'styled-components/native';
-import { ButtonVariant, colors } from '../../theme/colors';
-import { spacing } from '../../theme/spacing';
-import { radius } from '../../theme/radius';
-import { typography } from '../../theme/typography';
+import { ButtonVariant, colors } from '@theme/colors';
+import { spacing } from '@theme/spacing';
+import { radius } from '@theme/radius';
+import { typography } from '@theme/typography';
 
 export const ButtonContainer = styled.TouchableOpacity<{
   variant: ButtonVariant;

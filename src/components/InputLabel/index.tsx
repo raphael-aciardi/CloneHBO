@@ -6,7 +6,7 @@ export default function InputLabel({ label }: { label?: string }) {
 
   return (
     <InputStyleContainer>
-      <Label>Endereço de e-mail</Label>
+      <Label>{label}</Label>
       <InputStyle
         isFocused={isFocused}
         onFocus={() => setIsFocused(true)}

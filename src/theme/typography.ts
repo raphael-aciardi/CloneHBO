@@ -18,4 +18,6 @@ export const typography = {
     bold: 800,
     black: 900,
   },
-};
+} as const;
+
+export type Typography = typeof typography;

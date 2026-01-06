@@ -33,5 +33,3 @@ export const colors = {
     },
   },
 };
-
-export type ButtonVariant = 'primary' | 'secondary';

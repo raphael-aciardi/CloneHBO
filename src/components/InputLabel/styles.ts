@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
-import { colors } from '../../theme/colors';
-import { spacing } from '../../theme/spacing';
-import { typography } from '../../theme/typography';
+import { colors } from '@theme/colors';
+import { spacing } from '@theme/spacing';
+import { typography } from '@theme/typography';
 
 export const InputStyle = styled.TextInput.attrs({
   placeholderTextColor: colors.textSecondary,
