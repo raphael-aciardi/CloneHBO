@@ -1,97 +1,164 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 🎬 HBO Max Clone
 
-# Getting Started
+Mobile application built with **React Native** that replicates the HBO Max streaming interface, focusing on smooth navigation, clean component structure, and TypeScript best practices.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+This project aims to deepen knowledge in:
 
-## Step 1: Start Metro
+- React Native application structure
+- Component-based architecture
+- Static typing with TypeScript
+- Responsive layout organization
+- Scalable front-end architecture patterns
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+---
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+## 📱 Preview
 
-```sh
-# Using npm
-npm start
+> Interface inspired by the HBO Max streaming experience  
+> (Will be added images)
 
-# OR using Yarn
-yarn start
-```
+---
 
-## Step 2: Build and run your app
+## 🛠 Technologies Used
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+- React Native
+- React
+- TypeScript
+- Metro Bundler
+- Babel
+- ESLint
+- Prettier
+- Jest
 
-### Android
+---
 
-```sh
-# Using npm
-npm run android
+## 📦 Production Dependencies
 
-# OR using Yarn
-yarn android
-```
+Core libraries required for the application to run on mobile devices:
 
-### iOS
+- **react (v19.1.1)**  
+  Core library for building user interfaces.
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+- **react-native (v0.82.1)**  
+  Framework that allows JavaScript to run as native Android/iOS code.
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+- **react-native-safe-area-context**  
+  Handles safe areas on modern devices (notch, status bar, bottom navigation).
 
-```sh
-bundle install
-```
+- **@react-native/new-app-screen**  
+  Default starter components from React Native.
 
-Then, and every time you update your native dependencies, run:
+---
 
-```sh
-bundle exec pod install
-```
+## 🛠 Development Dependencies (devDependencies)
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+Tools used during development only.
 
-```sh
-# Using npm
-npm run ios
+### 🔧 Compilation & Configuration
 
-# OR using Yarn
-yarn ios
-```
+- **typescript**  
+  Adds static typing for improved reliability and maintainability.
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+- **@babel/core & presets**  
+  Transpiles modern JavaScript and JSX into compatible code for native engines.
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+- **metro-config**  
+  Configuration for Metro Bundler, responsible for packaging JavaScript code.
 
-## Step 3: Modify your app
+---
 
-Now that you have successfully run the app, let's make changes!
+### 💻 CLI & Platform Support
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+- **@react-native-community/cli**  
+  Command-line tools to run and manage the project.
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+- **cli-platform-android**  
+  Android build support.
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+- **cli-platform-ios**  
+  iOS build support.
 
-## Congratulations! :tada:
+---
 
-You've successfully run and modified your React Native App. :partying_face:
+### 🧹 Code Quality
 
-### Now what?
+- **eslint**  
+  Identifies code issues and enforces best practices.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+- **prettier**  
+  Automatically formats code for consistency.
 
-# Troubleshooting
+---
 
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+### 🧪 Testing
 
-# Learn More
+- **jest**  
+  Main testing framework.
 
-To learn more about React Native, take a look at the following resources:
+- **react-test-renderer**  
+  Allows testing React components without running a simulator.
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- **@types/***  
+  Type definitions to ensure TypeScript compatibility with Jest and React.
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+├── screens/
+├── navigation/
+├── services/
+├── hooks/
+├── contexts/
+└── assets/
+
+
+The structure was designed to ensure:
+
+- Separation of concerns
+- Scalability
+- Maintainability
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/hbo-clone.git
+2️⃣ Install dependencies
+npm install
+or
+
+yarn
+3️⃣ Run the project
+Android:
+
+npx react-native run-android
+iOS:
+
+npx react-native run-ios
+🎯 Project Goals
+This project was built to:
+
+Practice scalable React Native architecture
+
+Apply TypeScript best practices
+
+Improve component organization
+
+Simulate a real-world production-like application
+
+🔮 Future Improvements
+Integrate a real streaming API
+
+Add authentication flow
+
+Implement dynamic detail screens
+
+Expand unit test coverage
+
+Improve animations and transitions
