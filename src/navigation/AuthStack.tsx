@@ -1,5 +1,5 @@
 import { createStackNavigator } from '@react-navigation/stack';
-import OnboardingAuth from '../screens/Auth/OnboardingAuth';
+import OnboardingAuth from '../screens/OnboardingAuth';
 
 const AuthStack = createStackNavigator();
 
